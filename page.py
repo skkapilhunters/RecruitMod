@@ -1,7 +1,7 @@
 import os
 import time
 from quart import Quart
-from cogs.bot_instance import bot  # Import bot to pull live stats
+from bot_instance import bot  # Import bot to pull live stats
 import math  # Make sure this is imported at the very top of page.py
 
 app = Quart(__name__)
