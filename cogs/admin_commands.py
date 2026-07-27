@@ -5,7 +5,7 @@ class AdminCommands(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         # Set your home server ID here to restrict commands exclusively to your server
-        self.home_guild_id = 111222333444555666
+        self.home_guild_id = 1531173976733388910
 
     async def cog_check(self, ctx: commands.Context):
         # Prevent any prefix command from working outside your own server
