@@ -7,8 +7,7 @@ class RecruitmentAggregator(commands.Cog):
         
         # Add the IDs of recruitment channels in other servers to watch
         self.source_channel_ids = [
-            123456789012345678,  # Channel 1
-            234567890123456789,  # Channel 2
+            1510119929935036489,  # Channel 1
         ]
         
         # Destination channel ID in your home server where messages get reposted
